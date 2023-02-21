@@ -36,3 +36,21 @@
     transform: rotate(360deg);
   }
 }
+
+.project-card:nth-child(1){
+  -webkit-animation-delay: 0.1s;
+  animation-delay: 2s !important;
+}
+
+.project-card:nth-child(5){
+  -webkit-animation-delay: 0.2s;
+  animation-delay: 7s !important;
+}
+
+#animation{
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 500px;
+  height: 500px;
+}
